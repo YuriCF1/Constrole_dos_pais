@@ -1,0 +1,40 @@
+body {
+    font-family: 'Fredoka One', cursive;
+}
+
+.cabecalho_container {
+    height: 15vh;
+    padding: 2rem 20rem;
+    text-align: center;
+
+}
+.cabecalho_conteudo {
+    display:  flex;
+    justify-content: space-around;
+    
+}
+
+.cabecalho_imagem__astro {
+    height: 6rem;
+    display: flex;
+
+}
+
+.cabecalho_imagem__relogio {
+    height: 4rem;
+    display: flex;
+
+}
+
+.cabecalho_titulo {
+    font-size: 3rem;
+
+}
+
+.cabecalho_frase {
+    display: inline-block;
+    font-size: 1.25rem;
+
+
+
+}
