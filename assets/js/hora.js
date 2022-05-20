@@ -65,6 +65,12 @@ const popup = document.querySelector('.popup_fundo')
 const botaoSaida = document.querySelector('button')
 
     botao.addEventListener("click", function(e){
+
+
+
+ if (!form.checkValidity()) {
+    return;
+  }
     
         document.addEventListener("mouseleave", (event) => {  
             if (event.clientY <= 0 || event.clientX <= 0 || (event.clientX >= window.innerWidth || event.clientY >= window.innerHeight)) {  
