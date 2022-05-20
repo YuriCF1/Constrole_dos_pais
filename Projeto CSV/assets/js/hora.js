@@ -50,7 +50,6 @@ function mostraAHora() {
 }
 
 //_________________________________________Movimenta Imagem______________________________
-//_________________________________________Movimenta Imagem______________________________
 const fundo = document.getElementById('body');
 const header = document.getElementById('header');
 const form = document.getElementById('form');
@@ -69,14 +68,12 @@ const botaoSaida = document.querySelector('button')
     
         document.addEventListener("mouseleave", (event) => {  
             if (event.clientY <= 0 || event.clientX <= 0 || (event.clientX >= window.innerWidth || event.clientY >= window.innerHeight)) {  
-                console.log("I'm out");  
-              
+                //console.log("Saiu");  
                 popup.style.display = 'block' //Mostra o botão caso tente sair da página
-                
                 botaoSaida.addEventListener('click', () => {
                     popup.style.display = 'none'
-    
-                    })
+
+                 })
             }  
           });
 
@@ -183,13 +180,10 @@ const botaoSaida = document.querySelector('button')
             
                 }
             }
-
-          
-        
     }, true)
 
 
-
+// ________________________________________Códigos de estudo______________________________
     
 
 // form.addEventListener("blur", function( event ) {
@@ -216,15 +210,6 @@ const botaoSaida = document.querySelector('button')
     
 
 // }, true);
-
-
-
-
-
-
-
-
-
 
 
 
