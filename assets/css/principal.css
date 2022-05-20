@@ -1,0 +1,224 @@
+body {
+    background-image: url(../img/fundo2.png);
+    background-position: bottom right, 0px 0px;
+    background-origin: bottom;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+
+.nuvens {
+    display: flex;
+
+}
+
+.nuvens > img {
+    width: 100vw;
+    height: 20vh;
+    margin-top: -4rem;
+    
+}
+
+.tempo_container {
+    width: 40vw;
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 10vh;
+        
+}
+
+.tempo {
+    background-color: azure;
+    font-family: 'Fira Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    padding-top: 2rem;
+    border-radius: 30px;
+    padding-bottom: 2rem;
+
+}
+
+.tempo_frase {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+#hora {
+    font-size: 7rem;
+
+}
+
+#min {
+    font-size: 3.5rem;
+
+}
+
+#seg {
+    font-size: 1.5rem;
+
+}
+
+
+form {
+    background-image: url(../img/painel2.jpg);
+    background-size: cover;
+    background-position-x: -25px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    padding-top: 2rem;
+    border-radius: 30px;
+    padding: 2rem;
+    margin-left: 2rem;
+    color: #FDFDFD;
+    flex-wrap: nowrap;
+    font-weight: bold;
+    text-shadow: 0.2em 0.1em #333
+    
+}
+
+.tarefa > form > label, .pergunta {
+    margin: 1rem auto 0 auto;
+    display: block;
+    font-size: 1.2rem;
+    
+}
+
+.tarefa_input__acao {
+    width: 5rem;
+    margin: 0.3rem auto;
+    display: block; 
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    box-shadow: inset 0 0 12px #403f41;
+}
+
+.tarefa_input__tempo {
+    margin: 0.3rem auto;
+    display: block; 
+    width: 5rem;
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    box-shadow: inset 0 0 12px #403f41;
+}
+
+
+.botao {
+    margin: 0.3rem auto 0 auto;
+    width: auto;
+    background-color: #66DE93;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+.foguete_container {
+    display: inline-block;
+    width: auto;
+    margin-left: 75vw;
+
+}
+
+.foguete {
+    height: 11rem; 
+    float: right;
+    position: relative;
+    bottom: 90px;
+    right: 30px;
+}
+
+#frases_container {
+    width: 80vw;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    color: #5a5a5a;
+
+}
+
+
+.final_container { 
+    position: relative; 
+}
+
+#final {
+    font-size: 2rem;
+    position: absolute;
+    top: 12vh;
+    left: 68vw;
+    color: rgb(206, 206, 206);
+    display: none;
+}
+
+/*Atmosferas*/
+
+.atmosfera_container{
+    position: relative;
+
+}
+
+#primeira_camada {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 600px;
+    left: 20vw;
+    color: #000000;
+    text-shadow: 1px 2px rgb(160, 192, 157);
+}
+
+/*____________________________________POPUP_______________________________________*/
+.popup_fundo {
+    background: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+
+}
+
+.popup_conteudo {
+    color: #403f41;
+    width: 30vw;
+    height: 30vh;
+    margin: 35vh auto;
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: rgb(193, 247, 247);
+    border-radius: 20px;
+    padding: 1rem;
+    box-sizing: border-box;
+    opacity: .85;
+ 
+}
+
+.popup_conteudo > img {
+    height: 8rem;
+    display: block;
+    margin: 0 auto;
+   
+
+}
+
+.popup_conteudo > button {
+    border-radius: 5px;
+    background-color: rgb(255, 208, 250);
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
