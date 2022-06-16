@@ -9,7 +9,8 @@ Nele, o repsonsável pode definir um tempo para que estabeleça um foco. O tempo
 Uma descriação da primeira cadama da atmosfera foi feita para trazer mais dinâmica na experiencia de estudo da criança.
 
 ### Detalhes
-Caso a criança tente sair da tela, um pop-up de envorajamento aparece para fazê-la pensar duas vezes. Se, mesmo assim a criança sair, o contador mostra qunatas vezes isso aconteceu.
+Caso a criança tente sair da tela, um pop-up de envorajamento aparece para fazê-la pensar duas vezes. Se, mesmo assim a criança sair, o contador mostra qunatas vezes isso aconteceu. <br>
+A arte de background foi feita por mim, usando o Photoshop
 
 <div id='comeco'>
  </div>
