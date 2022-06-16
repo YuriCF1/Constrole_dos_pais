@@ -22,7 +22,7 @@ A arte de background foi feita por mim, usando o Photoshop
 
 ### Deploy do projeto: https://yuricf1.github.io/Constrole_dos_pais
 
-<img src="https://raw.githubusercontent.com/YuriCF1/Contador_Data/main/assets/img/Thumb.png" alt="imagem do site">
+<img src="https://raw.githubusercontent.com/YuriCF1/Constrole_dos_pais/main/assets/img/Exemplo.png" alt="imagem do site">
 
 ### Ajustes e melhorias
 
